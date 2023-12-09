@@ -11,6 +11,7 @@ return {
         "docker_compose_language_service",
         "dockerls",
         "lua_ls",
+        "pyright",
         "rust_analyzer",
         "terraformls",
         "tflint",
@@ -25,6 +26,8 @@ return {
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         "ansible-lint",
+        "black",
+        "mypy",
         "stylua",
       })
     end,
