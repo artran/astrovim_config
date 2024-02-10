@@ -30,6 +30,12 @@ return {
 
     vim.keymap.set("n", "<C-e>", function() toggle_telescope(harpoon:list()) end, { desc = "Open harpoon window" })
     vim.keymap.set("n", "<leader>a", function() harpoon:list():append() end, { desc = "Add current file to harpoon" })
+    vim.keymap.set(
+      "n",
+      "<leader>r",
+      function() harpoon:list():remove() end,
+      { desc = "Remove current file from harpoon" }
+    )
   end,
   dependencies = { "nvim-lua/plenary.nvim" },
 }
