@@ -2,6 +2,11 @@ return {
   "ThePrimeagen/harpoon",
   lazy = false,
   branch = "harpoon2",
+  dependencies = {
+    "nvim-lua/plenary.nvim",
+    "nvim-telescope/telescope.nvim",
+  },
+
   init = function()
     local harpoon = require "harpoon"
 
@@ -37,5 +42,4 @@ return {
       { desc = "Remove current file from harpoon" }
     )
   end,
-  dependencies = { "nvim-lua/plenary.nvim" },
 }
