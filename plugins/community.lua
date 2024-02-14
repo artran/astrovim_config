@@ -5,5 +5,6 @@ return {
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.completion.copilot-lua" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.editing-support.vim-move" },
   { import = "astrocommunity.motion.nvim-surround" },
 }
