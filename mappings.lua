@@ -24,9 +24,16 @@ return {
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
     -- toggle git blame for current line
     ["<leader>gv"] = { ":Gitsigns toggle_current_line_blame<cr>", desc = "Toggle Git Blame for Current Line" },
+    -- Delete without changing the clipboard
+    ["<leader>d"] = { '"_d', desc = "Delete without changing clipboard" },
   },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
+  },
+  v = {
+    -- Delete and paste without changing the clipboard
+    ["<leader>d"] = { '"_d', desc = "Delete without changing clipboard" },
+    ["<leader>p"] = { '"_dP', desc = "Paste without changing clipboard" },
   },
 }
