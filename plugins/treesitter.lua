@@ -7,7 +7,6 @@ return {
       "elixir",
       "htmldjango",
       "json",
-      "yaml",
     })
   end,
 }

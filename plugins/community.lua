@@ -8,6 +8,7 @@ return {
   { import = "astrocommunity.editing-support.vim-move" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.pack.ansible" },
+  { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.python" },
