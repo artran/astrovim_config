@@ -9,7 +9,6 @@ return {
       "json",
       "lua",
       "python",
-      "toml",
       "yaml",
     })
   end,
