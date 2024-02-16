@@ -13,7 +13,6 @@ return {
         "elixirls",
         "lua_ls",
         "pyright",
-        "rust_analyzer",
       })
     end,
   },

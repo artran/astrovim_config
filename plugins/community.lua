@@ -8,4 +8,5 @@ return {
   { import = "astrocommunity.editing-support.vim-move" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.pack.terraform" },
+  { import = "astrocommunity.pack.rust" },
 }
