@@ -14,8 +14,6 @@ return {
         "lua_ls",
         "pyright",
         "rust_analyzer",
-        "terraformls",
-        "tflint",
       })
     end,
   },

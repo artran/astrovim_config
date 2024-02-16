@@ -10,7 +10,6 @@ return {
       "lua",
       "python",
       "rust",
-      "terraform",
       "toml",
       "yaml",
     })
