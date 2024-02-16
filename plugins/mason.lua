@@ -11,7 +11,6 @@ return {
         "docker_compose_language_service",
         "dockerls",
         "elixirls",
-        "lua_ls",
       })
     end,
   },
@@ -24,7 +23,6 @@ return {
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         "ansible-lint",
         "mypy",
-        "stylua",
       })
     end,
   },
