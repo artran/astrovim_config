@@ -7,6 +7,7 @@ return {
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.editing-support.vim-move" },
   { import = "astrocommunity.motion.nvim-surround" },
+  { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.terraform" },
