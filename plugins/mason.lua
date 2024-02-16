@@ -7,7 +7,6 @@ return {
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        "ansiblels",
         "docker_compose_language_service",
         "dockerls",
         "elixirls",
@@ -21,7 +20,6 @@ return {
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        "ansible-lint",
         "mypy",
       })
     end,
