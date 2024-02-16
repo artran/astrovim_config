@@ -8,7 +8,6 @@ return {
       "htmldjango",
       "json",
       "lua",
-      "python",
       "yaml",
     })
   end,
