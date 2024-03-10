@@ -24,7 +24,6 @@ return {
     "nvim-telescope/telescope.nvim",
   },
   opts = {
-    ui_enabled = false,
     dir = "/Users/ray/Library/Mobile Documents/com~apple~CloudDocs/obsidian/artran", -- specify the vault location. no need to call 'vim.fn.expand' here
     use_advanced_uri = true,
     finder = "telescope.nvim",
